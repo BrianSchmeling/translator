@@ -25,7 +25,7 @@ export default function Translate() {
   };
 
   const translateText = () => {
-    // getLanguageSource();
+    getLanguageSource();
 
     let data = {
       q: inputText,
