@@ -20,3 +20,8 @@
   margin-bottom: 15px;
   outline: none !important;
 }
+
+.center {
+  margin: auto;
+  width: 80%;
+}

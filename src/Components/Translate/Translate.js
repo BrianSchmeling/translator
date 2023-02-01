@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Form, TextArea, Button, Icon } from "semantic-ui-react";
 import axios from "axios";
+import "./Translate.css";
 
 export default function Translate() {
   const [inputText, setInputText] = useState("");
@@ -57,7 +58,7 @@ export default function Translate() {
   }, [inputText]);
 
   return (
-    <div>
+    <div className="center">
       <div className="app-header">
         <h2 className="header">Texty Translator</h2>
       </div>
